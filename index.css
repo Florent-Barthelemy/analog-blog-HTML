@@ -54,6 +54,15 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
+.home-logo {
+  animation-name: fadeInTopLeft;
+  animation-delay: 0s;
+  background-image: linear-gradient(to right, #fc00ff 0%, #00dbde 100%);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
 .home-desktop-menu {
   flex: 1;
   display: flex;
@@ -66,17 +75,49 @@
   flex-direction: row;
   justify-content: center;
 }
+.home-nav12 {
+  animation-name: fadeInBottomRight;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
 .home-nav22 {
   margin-left: var(--dl-space-space-unit);
+  animation-name: fadeInBottomRight;
+  animation-delay: 100ms;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .home-nav32 {
   margin-left: var(--dl-space-space-unit);
+  animation-name: fadeInBottomRight;
+  animation-delay: 100ms;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .home-nav42 {
   margin-left: var(--dl-space-space-unit);
+  animation-name: fadeInBottomRight;
+  animation-delay: 100ms;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .home-nav52 {
   margin-left: var(--dl-space-space-unit);
+  animation-name: fadeInBottomRight;
+  animation-delay: 100ms;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .home-buttons {
   display: flex;
